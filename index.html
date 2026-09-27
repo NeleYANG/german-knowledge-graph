@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#05070d" />
+<meta
+      name="description"
+      content="学科知识图谱。英语、数学与德语三个学科，可按年级/等级与领域自由探索知识脉络。"
+    />
+  <title>学科知识图谱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css?v=36" />
+</head>
+<body>
+  <div id="app">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="scene-stars" id="sceneStars" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <section id="intro" class="intro" aria-label="学科知识图谱开场">
+      <button type="button" id="skipIntro" class="intro-skip">跳过开场</button>
+      <div class="cosmic-stage" aria-hidden="true">
+        <div class="cosmic-mist"></div>
+        <div class="cosmic-starfield" id="cosmicStarfield"></div>
+        <div class="cosmic-core">
+          <div class="orbit orbit-1"></div>
+          <div class="orbit orbit-2"></div>
+          <div class="orbit orbit-3"></div>
+          <div class="planet-core"></div>
+        </div>
+      </div>
+      <div class="cosmic-copy">
+        <div class="cosmic-kicker"><i></i><span id="introKicker">THE KNOWLEDGE COSMOS</span></div>
+        <h2 class="cosmic-title">
+          <span class="line-a">每一颗知识，</span>
+          <span class="line-b">都有它的<em>轨道</em>。</span>
+        </h2>
+        <p class="cosmic-sub" id="introSub">A1 → C2 · 3-12 年级 · 跨学科 · 时序生长</p>
+        <div class="cosmic-stats" id="introCounts">
+          <div class="stat-tile">
+            <span class="stat-key">ATOM NODES</span>
+            <strong class="stat-num v-gold">—</strong>
+            <span class="stat-zh">原子知识点</span>
+          </div>
+          <div class="stat-tile">
+            <span class="stat-key">PREREQ EDGES</span>
+            <strong class="stat-num v-teal">—</strong>
+            <span class="stat-zh">先修关系</span>
+          </div>
+        </div>
+        <div class="cosmic-actions">
+          <button type="button" id="introEnter" class="cta cta-primary">进入宇宙 <i aria-hidden="true">↗</i></button>
+          <button type="button" id="introDemo" class="cta cta-ghost">先看演示</button>
+        </div>
+      </div>
+      <div class="cosmic-foot">
+        <span>3D FORCE GRAPH · DIRECTED KNOWLEDGE GRAPH · v2.0</span>
+        <span>SCROLL OR PRESS ENTER →</span>
+      </div>
+      <div class="intro-progress" aria-hidden="true"><i></i></div>
+    </section>
+
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="brand" href="#" aria-label="知识图谱首页">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="brand-name">知识图谱</span>
+        </a>
+        <div class="subject-switch" role="tablist" aria-label="学科">
+          <button type="button" data-subject="german" class="on" role="tab" aria-selected="true"><i aria-hidden="true"></i>德语</button>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <span class="search-icon" aria-hidden="true"></span>
+        <input
+          type="search"
+          id="search"
+          placeholder="搜索一个德语知识点…"
+          autocomplete="off"
+          aria-label="搜索知识主题"
+        />
+        <kbd>回车</kbd>
+        <ul id="searchSuggest" class="search-suggest" role="listbox" aria-label="搜索候选" hidden></ul>
+      </div>
+
+      <div class="top-actions">
+        <button type="button" id="demoBtn" class="top-action" aria-label="开始自动演示">
+          <span aria-hidden="true">▶</span> 自动演示
+        </button>
+        <button type="button" id="fullscreenBtn" class="icon-action" aria-label="进入全屏" title="进入全屏">⛶</button>
+        <div class="status-pill">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span id="status">正在唤醒知识宇宙…</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow"><span></span> <span id="eyebrowText">学科知识图谱</span></p>
+        <h1 id="hero-title">每一次学习，<br /><em>都有迹可循。</em></h1>
+        <p class="hero-copy" id="heroCopy">
+          课时被拆解为原子知识点。<br />
+          让教材中的知识脉络，从此清晰可见。
+        </p>
+        <div class="hero-stats" id="heroStats" aria-label="图谱数据摘要">
+          <div><strong>—</strong><span>原子知识点</span></div>
+          <div><strong>—</strong><span>先修关系</span></div>
+          <div><strong>—</strong><span>课时数</span></div>
+        </div>
+      </section>
+
+      <div id="graph" aria-label="三维学习知识图谱"></div>
+
+      <section class="subject-dock glass" aria-label="知识领域筛选">
+        <div class="dock-heading">
+          <div>
+            <span class="dock-kicker">按领域探索</span>
+            <strong>知识领域</strong>
+          </div>
+          <button type="button" id="toggleAll">显示全部</button>
+        </div>
+        <div class="subjects" id="subjects"></div>
+      </section>
+
+      <section id="timelineDock" class="timeline-dock glass" aria-label="知识年级筛选">
+        <div class="timeline-heading">
+          <div>
+            <span id="timelineLabel">知识成长年级</span>
+            <strong><b id="ageValue">9</b><span id="gradeUnit"> 年级</span></strong>
+          </div>
+          <button type="button" id="agePlay" aria-label="自动播放年级成长路径">
+            <i aria-hidden="true">▶</i> 自动生长
+          </button>
+        </div>
+        <div class="timeline-control">
+          <div class="timeline-rail" aria-hidden="true"><i id="ageFill"></i></div>
+          <span id="ageAxisMarker" class="timeline-marker" aria-hidden="true"><b id="ageAxisValue">3</b></span>
+          <input
+            type="range"
+            id="ageSlider"
+            min="3"
+            max="9"
+            step="1"
+            value="9"
+            aria-label="选择年级"
+          />
+          <div class="timeline-ticks" id="gradeTicks" aria-hidden="true">
+            <span>3</span><span>4</span><span>5</span><span>6</span>
+            <span>7</span><span>8</span><span>9</span>
+          </div>
+        </div>
+        <div class="timeline-summary">
+          <span><b id="ageNodeCount">—</b> 个原子知识点</span>
+          <span><b id="ageLinkCount">—</b> 条先修关系</span>
+        </div>
+      </section>
+
+      <div id="demoCaption" class="demo-caption" aria-live="polite">
+        <span id="demoStep">自动演示</span>
+        <strong id="demoTitle"></strong>
+        <small id="demoMeta"></small>
+      </div>
+    </main>
+
+    <aside id="panel" class="closed glass" aria-label="知识主题详情">
+      <div class="panel-accent"></div>
+      <div class="panel-top">
+        <span class="panel-label">知识节点</span>
+        <button type="button" id="closePanel" aria-label="关闭详情">×</button>
+      </div>
+
+      <div id="panelEmpty" class="panel-empty">
+        <span class="empty-orbit"><i></i></span>
+        <strong>选择一个知识节点</strong>
+        <p>查看它从哪里来，又将通向哪里。</p>
+      </div>
+
+      <div id="panelBody" hidden>
+        <p id="meta"></p>
+        <h2 id="name"></h2>
+        <p id="desc"></p>
+
+        <section class="lesson-context" aria-label="所属课时">
+          <span>01 · 所属课时</span>
+          <strong id="lessonTitle"></strong>
+          <p id="lessonPath"></p>
+          <div id="lessonTopics" class="lesson-topics"></div>
+        </section>
+
+        <div class="path-summary">
+          <span><i class="inbound"></i> 先修知识</span>
+          <span><i class="outbound"></i> 解锁知识</span>
+        </div>
+
+        <section class="detail-section prereq-section">
+          <h3><span>02</span> 直接先修</h3>
+          <ul id="prereqs"></ul>
+        </section>
+        <section class="detail-section unlock-section">
+          <h3><span>03</span> 可解锁主题</h3>
+          <ul id="unlocks"></ul>
+        </section>
+        <section class="detail-section evidence-section">
+          <h3><span>04</span> 掌握证据</h3>
+          <ul id="evidence"></ul>
+        </section>
+      </div>
+    </aside>
+
+    <footer>
+      <span id="footerNote">学科知识图谱</span>
+      <span class="footer-line"></span>
+      <span class="edge-legend" aria-label="关系线图例">
+        <span class="edge-key hard"><i></i>必要先修</span>
+        <span class="edge-key soft"><i></i>建议先修</span>
+        <span class="edge-key association"><i></i>课时关联</span>
+        <span class="edge-key sequence"><i></i>教材顺序</span>
+      </span>
+      <a href="data/quality-report.json" target="_blank" rel="noopener">查看数据质量 ↗</a>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph@1.73.3/dist/3d-force-graph.min.js"></script>
+  <script src="taxonomy-data-german.js?v=1"></script>
+  <script>
+    // 入场页 Cosmic Core 星海 — 180 颗随机星（位置 / 大小 / 闪烁都随机）
+    (function buildCosmicStarfield() {
+      const sf = document.getElementById("cosmicStarfield");
+      if (!sf) return;
+      const frag = document.createDocumentFragment();
+      const palette = [
+        ["rgba(255,255,255,",  "rgba(255,255,255,"],
+        ["rgba(220,238,255,",  "rgba(200,225,255,"],
+        ["rgba(255,222,189,",  "rgba(240,201,136,"],
+        ["rgba(220,200,255,",  "rgba(141,124,255,"],
+        ["rgba(207,255,234,",  "rgba(113,229,209,"],
+        ["rgba(255,200,230,",  "rgba(233,143,180,"],
+      ];
+      for (let i = 0; i < 180; i++) {
+        const s = document.createElement("span");
+        const size = Math.random() < 0.85
+          ? (0.7 + Math.random() * 1.3)
+          : (1.6 + Math.random() * 1.7);
+        const left = Math.random() * 100;
+        const top  = Math.random() * 100;
+        const [color] = palette[Math.floor(Math.random() * palette.length)];
+        const opacity = 0.35 + Math.random() * 0.55;
+        const dur  = (2 + Math.random() * 5).toFixed(2);
+        const del  = (Math.random() * 5).toFixed(2);
+        const glow = (size * 2.4).toFixed(1);
+        s.style.cssText =
+          `left:${left}%;top:${top}%;width:${size}px;height:${size}px;` +
+          `background:${color}${opacity.toFixed(2)});` +
+          `box-shadow:0 0 ${glow}px ${color}${(opacity*0.6).toFixed(2)});` +
+          `--d:${dur}s;--del:${del}s;--base:${opacity.toFixed(2)};`;
+        frag.appendChild(s);
+      }
+      sf.appendChild(frag);
+    })();
+
+    // 3D 主场景背景星海 — 220 颗细微星（保持不变）
+    (function buildSceneStars() {
+      const ss = document.getElementById("sceneStars");
+      if (!ss) return;
+      const frag = document.createDocumentFragment();
+      const palette = [
+        "rgba(255,255,255,",
+        "rgba(200,220,255,",
+        "rgba(220,200,255,",
+        "rgba(255,220,210,",
+      ];
+      for (let i = 0; i < 220; i++) {
+        const s = document.createElement("span");
+        const size = Math.random() < 0.9 ? (0.6 + Math.random() * 0.9) : (1.4 + Math.random() * 1.2);
+        const left = Math.random() * 100;
+        const top = Math.random() * 100;
+        const color = palette[Math.floor(Math.random() * palette.length)];
+        const opacity = 0.15 + Math.random() * 0.35;
+        const dur = (3 + Math.random() * 5).toFixed(2);
+        const delay = (Math.random() * 6).toFixed(2);
+        s.style.cssText = `left:${left}%;top:${top}%;width:${size}px;height:${size}px;background:${color}${opacity.toFixed(2)});box-shadow:0 0 ${(size*2.4).toFixed(1)}px ${color}${(opacity*0.5).toFixed(2)});--d:${dur}s;--del:${delay}s;--base:${opacity.toFixed(2)};`;
+        s.className = "star-twinkle";
+        frag.appendChild(s);
+      }
+      ss.appendChild(frag);
+    })();
+  </script>
+    <script src="app.js?v=64"></script>
+</body>
+</html>

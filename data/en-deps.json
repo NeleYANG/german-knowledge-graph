@@ -1,0 +1,310 @@
+{
+  "edges": [
+    {
+      "topicId": "mtc_591",
+      "prerequisiteId": "mtc_148",
+      "strength": "hard",
+      "reason": "小学低段→初中：英语·人与自我主题(个人家庭学校) → 英语·人与自我（学习与生活）",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Narrowed target 学校生活 (mtc_591, 初中) is the direct continuation of primary-stage 人与自我(个人家庭学校) (mtc_148), whose evidence includes describing school life. Same theme, 小学→初中 progression; hard prerequisite holds. R2（medium）：Narrowed mtc_591 学校生活 continues the same self/school theme; prerequisite mtc_148 (小学, 介绍自己/家庭/学校生活) directly covers school-life description, providing the spiral vocabulary/context base for the junior-stage topic. Age progression (8-10 → 13-15) is sound.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_592",
+      "prerequisiteId": "mtc_149",
+      "strength": "hard",
+      "reason": "小学中段→初中：英语·人与社会主题(社区规则节日) → 英语·人与社会（规则与公益）",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Narrowed target 社会规则 (mtc_592) continues primary-stage 人与社会(社区规则节日) (mtc_149), which explicitly includes talking about community rules. Same theme with rules as shared core; 小学→初中 progression, hard holds. R2（medium）：Narrowed mtc_592 社会规则 maps onto prerequisite mtc_149 (小学, 谈论社区和规则、节日) which explicitly includes 规则; the primary-stage rules/society theme seeds the junior 社会规则 (交通规则、校规) content. Directional and age progression valid.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_593",
+      "prerequisiteId": "mtc_150",
+      "strength": "hard",
+      "reason": "小学低段→初中：英语·人与自然主题(动物天气环境) → 英语·人与自然（环保）",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Narrowed target 环境保护 (mtc_593) continues primary-stage 人与自然(动物天气环境) (mtc_150), whose evidence includes 谈论保护环境. Direct thematic foundation, 小学→初中 progression; hard holds. R2（medium）：Narrowed mtc_593 环境保护 aligns with prerequisite mtc_150 (小学, 动物/天气/环境, evidence '能谈论保护环境'); the primary nature theme directly covers environmental protection, providing the thematic/vocabulary base for junior 环保. Progression 8-12 → 13-15 sound.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_152",
+      "prerequisiteId": "mtc_151",
+      "strength": "soft",
+      "reason": "Language Skills 渐进：英语·听力理解·听懂简短指令对话 → 英语·口语表达·问候与介绍",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_153",
+      "prerequisiteId": "mtc_152",
+      "strength": "soft",
+      "reason": "Language Skills 渐进：英语·口语表达·问候与介绍 → 英语·阅读·读懂配图短文",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_580",
+      "prerequisiteId": "mtc_579",
+      "strength": "hard",
+      "reason": "小学高段→初中：英语·阅读·语篇大意 → 英语·阅读·作者意图",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_581",
+      "prerequisiteId": "mtc_580",
+      "strength": "soft",
+      "reason": "Reading 渐进：英语·阅读·作者意图 → 英语·阅读·生词猜测",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_585",
+      "prerequisiteId": "mtc_587",
+      "strength": "hard",
+      "reason": "小学高段→初中：英语·语法·基本句型 → 英语·语法·现在完成时",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_586",
+      "prerequisiteId": "mtc_585",
+      "strength": "soft",
+      "reason": "Grammar 渐进：英语·语法·现在完成时 → 英语·语法·被动语态",
+      "reviewStatus": "rejected",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 rejected。R1（medium）：Merely related: present passive (mtc_586, am/is/are+过去分词) and present perfect (mtc_585, have/has+过去分词) both use a past participle but neither depends on the other. Present-tense passive can be formed from the be-verb (already covered by mtc_584) plus past participle without knowing present perfect. Shared past-participle topicality is not a genuine prerequisite. R2（medium）：No genuine dependency between narrowed endpoints. mtc_586 一般现在时被动语态 (am/is/are+过去分词) does not require 现在完成时 (have/has+过去分词); they merely share past-participle knowledge. The edge reason 'Grammar 渐进' is bare relatedness/progression, not a prerequisite for the present-tense passive's core evidence.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_589",
+      "prerequisiteId": "mtc_588",
+      "strength": "hard",
+      "reason": "小学高段→初中：英语·词汇·课标核心词汇掌握 → 英语·词汇·构词法·派生",
+      "reviewStatus": "reviewed",
+      "reviewProvenance": "rule"
+    },
+    {
+      "topicId": "mtc_839",
+      "prerequisiteId": "mtc_838",
+      "strength": "hard",
+      "reason": "初中→高中：阅读·长难语篇的理解 → 阅读·批判性阅读与深层评价",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（medium）：mtc_838 '阅读·长难语篇的理解' (age 15-16) supports the narrowed topic mtc_839 '区分事实与观点' (age 16-17); direction and age order hold and reading comprehension underpins annotating fact vs opinion. However the topic narrowed to a discrete analytic micro-skill teachable on ordinary texts, so mastery of long/difficult passages is no longer strictly necessary — the old 'hard' (set for the broad 批判性阅读 meaning) is now over-calibrated. R2（medium）：Target (narrowed) mtc_839=区分事实与观点 requires comprehending the passage first; prereq mtc_838=阅读·长难语篇的理解 supplies 主旨大意/深层含义/作者态度 comprehension that is necessary to correctly classify sentences as fact vs opinion. Direction correct, comprehension is a necessary substrate.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_840",
+      "prerequisiteId": "mtc_839",
+      "strength": "soft",
+      "reason": "Integrated Language Use 渐进：阅读·批判性阅读与深层评价 → 写作·复杂语篇的谋篇",
+      "reviewStatus": "rejected",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 rejected。R1（medium）：After narrowing, mtc_839 means only '区分事实与观点'. The old edge relied on the broad '批判性阅读与深层评价' reading. The narrowed fact/opinion discrimination skill does not materially enable mtc_840 '写作·复杂语篇的谋篇' (谋篇布局/text organization, evidence 能写出结构完整的语篇); the link is topical relatedness, not a prerequisite for structuring complex texts. R2（medium）：After narrowing, prereq mtc_839 means only 区分事实与观点 (fact/opinion labeling). Target mtc_840=写作·复杂语篇的谋篇 core evidence is 结构完整/多样句型/逻辑清晰—structural composition. Fact-vs-opinion discrimination is topical association at best, not required for 谋篇布局; the edge's stated 'critical reading→writing' rationale no longer matches the narrowed endpoint. Evidence gap => rejected.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_841",
+      "prerequisiteId": "mtc_840",
+      "strength": "soft",
+      "reason": "Integrated Language Use 渐进：写作·复杂语篇的谋篇 → 写作·思辨表达",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（medium）：Prereq mtc_840 '写作·复杂语篇的谋篇' is unchanged (not narrowed) and its organizing/structuring competence (能写出结构完整、内容充实的语篇、逻辑清晰) materially supports the narrowed topic mtc_841 '提出有深度的观点并论证' (能针对话题写出有立场的段落，使用因果、对比等论证方法). Correct direction, coherent writing progression; soft is appropriate. R2（medium）：Target (narrowed) mtc_841=提出有深度的观点并论证 (argumentative writing with 因果/对比 methods) builds on prereq mtc_840=写作·复杂语篇的谋篇, the ability to produce structurally complete, logically clear texts. Supportive substrate but not strictly necessary to state a stance—soft calibration is correct.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_589",
+      "prerequisiteId": "mtc_590",
+      "strength": "hard",
+      "reason": "Phonetics 是 Vocabulary 的先修：英语·语音·拼读规则 → 英语·词汇·构词法·派生",
+      "reviewStatus": "machine"
+    },
+    {
+      "topicId": "mtc_584",
+      "prerequisiteId": "mtc_588",
+      "strength": "hard",
+      "reason": "Vocabulary 是 Grammar 的先修：英语·词汇·课标核心词汇掌握 → 英语·语法·常用基本时态（一般现在/过去/将来/进行）",
+      "reviewStatus": "rejected",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 分歧，按保守策略判为 rejected。R1（medium）：Narrowed 一般现在时 (mtc_584) evidence requires using verbs and describing habits in context; core vocabulary mastery (mtc_588) provides the lexical base needed to construct and apply present-tense sentences. Vocabulary→grammar support holds; keep hard. R2（medium）：Merely topical vocab→grammar association. mtc_584's narrowed core evidence (一般现在时构成、三单形式变化、描述日常习惯) is a grammatical operation demonstrable with minimal verbs; mastery of ~1500 课标核心词汇 is not necessary. The edge reason still cites the pre-narrow broad '常用基本时态' scope, not the narrowed simple-present endpoint. Relatedness, not prerequisite.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_151",
+      "prerequisiteId": "mtc_584",
+      "strength": "hard",
+      "reason": "Grammar 是 Language Skills 的先修：英语·语法·常用基本时态（一般现在/过去/将来/进行） → 英语·听力理解·听懂简短指令对话",
+      "reviewStatus": "rejected",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 rejected。R1（high）：Narrowed prerequisite mtc_584 is now only 英语·语法·一般现在时 (初中, age 12-13), while target mtc_151 is 小学 听力理解 (age 8-10) — a prerequisite older/later than its target is an age/order conflict (rule 2). Semantically the target evidence (听懂课堂指令、简短对话、捕捉关键信息) needs no formal mastery of simple-present 构成/三单变化; the original hard edge relied on the broad 常用基本时态 bundle that narrowing removed, leaving at most topical association. R2（high）：Narrowed prerequisite mtc_584 is 初中 一般现在时 (age 12-13, grammar concept: 构成/三单变化/习惯描述), while target mtc_151 is a 小学 listening skill (age 8-10: 听懂课堂指令/简短对话/捕捉关键信息). Direction requires the prerequisite be learned first, but it is a later 初中 concept — an age/order inversion. Understanding short spoken instructions does not require formally mastering simple-present 三单 rules; the link is topical language association only. The old edge reason cited broad 常用基本时态, but the narrowed endpoint is a single 初中 tense, so the dependency no longer holds.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_838",
+      "prerequisiteId": "mtc_151",
+      "strength": "hard",
+      "reason": "Language Skills 是 Integrated Language Use 的先修：英语·听力理解·听懂简短指令对话 → 阅读·长难语篇的理解",
+      "reviewStatus": "machine"
+    },
+    {
+      "topicId": "mtc_838",
+      "prerequisiteId": "mtc_154",
+      "strength": "hard",
+      "reason": "Language Knowledge 是 Integrated Language Use 的先修：英语·语言知识·语音词汇语法初步 → 阅读·长难语篇的理解",
+      "reviewStatus": "machine"
+    },
+    {
+      "topicId": "mtc_575",
+      "prerequisiteId": "mtc_576",
+      "strength": "hard",
+      "reason": "先掌握关键信息获取才能推断主旨大意",
+      "reviewStatus": "machine",
+      "ageRegression": true
+    },
+    {
+      "topicId": "mtc_577",
+      "prerequisiteId": "mtc_578",
+      "strength": "hard",
+      "reason": "表达观点需要先掌握日常情境对话",
+      "reviewStatus": "rejected",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 rejected。R1（high）：Wrong direction and age/order conflict: target 购物情境对话 (mtc_577, age 12-13, basic transactional dialogue) is set to require 简短观点表达 (mtc_578, age 13-15, multi-sentence opinion + connectives) first. Opinion expression is the more advanced, later skill; basic shopping dialogue does not depend on it. The edge's own reason states the reverse dependency. R2（high）：Wrong direction / age conflict. Target mtc_577 购物情境对话 is a basic situational-dialogue skill (age 12-13); the listed prerequisite mtc_578 简短观点表达 (age 13-15, ≥5 sentence coherent opinion with connectors) is the more advanced, later skill. A basic shopping dialogue does not require prior multi-sentence opinion expression; the dependency is inverted.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_582",
+      "prerequisiteId": "mtc_583",
+      "strength": "hard",
+      "reason": "写记叙文和说明文需要先掌握书信的格式和语言要点",
+      "reviewStatus": "machine"
+    },
+    {
+      "topicId": "mtc_584",
+      "prerequisiteId": "mtc_587",
+      "strength": "hard",
+      "reason": "掌握基本句型是正确使用时态的基础",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（medium）：Narrowed target 一般现在时 (mtc_584) requires forming correct S+V/S+V+O sentences; 基本句型 (mtc_587, five basic sentence patterns) supplies the clause structure into which present-tense verb forms are placed. Genuinely foundational, so hard is defensible. R2（medium）：Narrowed mtc_587 五种基本句型 (S+V/S+V+O/...) underpins constructing any tensed sentence; forming simple-present sentences (三单变化, 造句) presupposes basic clause structure. Structural, plausibly necessary; hard retained.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_585",
+      "prerequisiteId": "mtc_584",
+      "strength": "hard",
+      "reason": "现在完成时是时态的一种，需要先掌握基本时态",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Present perfect (mtc_585, have/has+过去分词) depends on the present-tense forms of have/has and 三单 agreement taught in narrowed 一般现在时 (mtc_584). Prereq necessary to the target's construction; hard is correct. R2（medium）：现在完成时 (have/has+过去分词) construction relies on the present-tense conjugation of have/has, which narrowed mtc_584 一般现在时 (三单形式变化) provides; distinguishing 现在完成时 vs 一般过去时 also assumes present-tense baseline. Supports target's core evidence.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_586",
+      "prerequisiteId": "mtc_584",
+      "strength": "hard",
+      "reason": "被动语态的构成需要先掌握基本时态",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：一般现在时的被动语态 (mtc_586, am/is/are+过去分词) uses the same present-tense be-verb system as narrowed 一般现在时 (mtc_584). Directly necessary same-tense foundation; hard appropriate. R2（high）：一般现在时被动语态 (am/is/are+过去分词) is built directly on the am/is/are be-conjugation and structure of narrowed mtc_584 一般现在时; the passive's core evidence (主动→被动转换、语态选择) presupposes active simple-present mastery. Hard is correct.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_2265",
+      "prerequisiteId": "mtc_2262",
+      "strength": "hard",
+      "reason": "一般过去时被动语态的构成依赖一般过去时的助动词和动词过去式。",
+      "reviewStatus": "machine",
+      "generationBatchId": "split-relations-20260721-historical"
+    },
+    {
+      "topicId": "mtc_2266",
+      "prerequisiteId": "mtc_2263",
+      "strength": "hard",
+      "reason": "掌握一般将来时主动态是学习其被动态的必要前提",
+      "reviewStatus": "machine",
+      "generationBatchId": "split-relations-20260721-historical"
+    },
+    {
+      "topicId": "mtc_2264",
+      "prerequisiteId": "mtc_584",
+      "strength": "soft",
+      "reason": "一般现在时中的be动词是现在进行时构成的基础，缺乏be动词知识会显著增加学习难度",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "generationBatchId": "split-relations-20260721-historical",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Present progressive (mtc_2264, am/is/are+ing) is built on the be-verb forms mastered in 一般现在时 (mtc_584). Narrowed present-tense scope of the prereq directly supplies the am/is/are needed for the progressive construction; soft calibration is correct. R2（medium）：现在进行时 (am/is/are+动词ing) construction requires command of the present-tense be conjugation (am/is/are), which is part of narrowed mtc_584 一般现在时 usage. Supportive but not strictly necessary; soft is appropriate.",
+      "reviewProvenance": "ai-consensus"
+    },
+    {
+      "topicId": "mtc_2269",
+      "prerequisiteId": "mtc_148",
+      "strength": "soft",
+      "reason": "小学阶段的个人、家庭和学校表达为谈论未来职业和梦想提供基础语言能力",
+      "reviewStatus": "machine",
+      "generationBatchId": "split-relations-20260721-historical"
+    },
+    {
+      "topicId": "mtc_2272",
+      "prerequisiteId": "mtc_149",
+      "strength": "soft",
+      "reason": "小学阶段的节日话题为初中节日学习提供基础词汇和表达，但非绝对必要。",
+      "reviewStatus": "machine",
+      "generationBatchId": "split-relations-20260721-historical"
+    },
+    {
+      "topicId": "mtc_2275",
+      "prerequisiteId": "mtc_838",
+      "strength": "hard",
+      "reason": "阅读长难语篇是理解文本论证前提，不掌握则无法分析论证结构",
+      "reviewStatus": "machine",
+      "generationBatchId": "split-relations-20260721-historical"
+    },
+    {
+      "topicId": "mtc_2275",
+      "prerequisiteId": "mtc_839",
+      "strength": "hard",
+      "reason": "区分事实与观点是评价证据可靠性的基础，不掌握则难以完成批判性评价",
+      "reviewStatus": "reviewed",
+      "rescopeBatchId": "granularity-rescope-20260721",
+      "generationBatchId": "split-relations-20260721-historical",
+      "reviewedBy": "user-delegated-claude-opus-consensus",
+      "reviewedAt": "2026-07-21T15:09:11.145734Z",
+      "reviewNote": "双 Opus 独立审核 一致判为 reviewed。R1（high）：Narrowed prereq mtc_839 '区分事实与观点' is foundational to the narrowed topic mtc_2275 '分析论证逻辑与批判性评价' (evidence 能评价证据的充分性和逻辑的严密性): one must separate factual claims from subjective judgments before evaluating evidence reliability and critiquing argument structure. Genuine semantic dependency, not mere split-sibling order. R2（high）：Narrowed prereq mtc_839=区分事实与观点 is genuinely foundational to target mtc_2275=分析论证逻辑与批判性评价, whose evidence '能评价证据的充分性和逻辑的严密性' presupposes separating objective fact from subjective opinion. Direction correct; prerequisite is necessary to complete critical-evaluation evidence.",
+      "reviewProvenance": "ai-consensus"
+    }
+  ]
+}

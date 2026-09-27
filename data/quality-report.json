@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "sourceRecords": 202,
+  "lessonRecords": 202,
+  "topics": 415,
+  "lessonsWithOneTopic": 0,
+  "lessonsWithMultipleTopics": 202,
+  "averageTopicsPerLesson": 2.054,
+  "maxTopicsPerLesson": 4,
+  "lessonTopicLinks": 415,
+  "dependencies": 561,
+  "hardDependencies": 304,
+  "softProgressions": 257,
+  "curriculumSequenceEdges": 201,
+  "assignedConcepts": 158,
+  "fallbackTopics": 0,
+  "topicsByType": {
+    "PROCEDURAL": 150,
+    "CONCEPTUAL": 65,
+    "LANGUAGE": 102,
+    "REPRESENTATIONAL": 44,
+    "META": 54
+  },
+  "topicsByGrade": {
+    "3": 52,
+    "4": 51,
+    "5": 49,
+    "6": 42,
+    "7": 84,
+    "8": 80,
+    "9": 57
+  },
+  "missingAssessmentPrompt": 0,
+  "missingCentrality": 0,
+  "evidenceUnderTwo": 0,
+  "duplicateTopicIds": 0,
+  "duplicateNames": 2,
+  "lessonsWithoutTopics": 0,
+  "overlongAtomicTargets": 56,
+  "splitMethods": {
+    "single-outcome": 415
+  },
+  "skippedConceptPrerequisites": [],
+  "graph": {
+    "danglingEndpoints": 0,
+    "selfLoops": 0,
+    "duplicatePairs": 0,
+    "acyclic": true,
+    "components": 1,
+    "roots": 156,
+    "leaves": 112,
+    "isolated": 0,
+    "maxHardOutdegree": 17,
+    "maxTotalOutdegree": 17
+  }
+}

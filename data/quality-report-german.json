@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "sourceRecords": 119,
+  "lessonRecords": 119,
+  "topics": 301,
+  "lessonsWithOneTopic": 14,
+  "lessonsWithMultipleTopics": 105,
+  "averageTopicsPerLesson": 2.529,
+  "maxTopicsPerLesson": 6,
+  "lessonTopicLinks": 301,
+  "dependencies": 424,
+  "hardDependencies": 335,
+  "softProgressions": 89,
+  "curriculumSequenceEdges": 118,
+  "assignedConcepts": 212,
+  "fallbackTopics": 0,
+  "topicsByType": {
+    "REPRESENTATIONAL": 17,
+    "CONCEPTUAL": 65,
+    "PROCEDURAL": 158,
+    "LANGUAGE": 36,
+    "META": 25
+  },
+  "topicsByLevel": {
+    "1": 36,
+    "2": 63,
+    "3": 41,
+    "4": 34,
+    "5": 29,
+    "6": 29,
+    "7": 19,
+    "8": 18,
+    "9": 15,
+    "10": 17
+  },
+  "levelLabels": [
+    "A1.1",
+    "A1.2",
+    "A2.1",
+    "A2.2",
+    "B1.1",
+    "B1.2",
+    "B2.1",
+    "B2.2",
+    "C1.1",
+    "C1.2"
+  ],
+  "missingAssessmentPrompt": 0,
+  "missingCentrality": 0,
+  "evidenceUnderTwo": 0,
+  "duplicateTopicIds": 0,
+  "duplicateNames": 0,
+  "lessonsWithoutTopics": 0,
+  "overlongAtomicTargets": 1,
+  "splitMethods": {
+    "single-outcome": 301
+  },
+  "skippedConceptPrerequisites": [],
+  "graph": {
+    "danglingEndpoints": 0,
+    "selfLoops": 0,
+    "duplicatePairs": 0,
+    "acyclic": true,
+    "components": 1,
+    "roots": 54,
+    "leaves": 107,
+    "isolated": 0,
+    "maxHardOutdegree": 12,
+    "maxTotalOutdegree": 12
+  }
+}

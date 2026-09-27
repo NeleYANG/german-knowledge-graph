@@ -1,0 +1,944 @@
+{
+  "dataset": "英语知识图谱",
+  "parentDataset": "os-taxonomy-beijing (English subset)",
+  "totalNodes": 51,
+  "totalEdges": 31,
+  "nodes": [
+    {
+      "id": "mtc_148",
+      "name": "英语·人与自我主题(个人家庭学校)",
+      "domain": "Themes: Self",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        8,
+        10
+      ],
+      "centrality": 0.033333,
+      "description": "围绕人与自我主题，用简单英语介绍自己、家庭和学校生活，发展语言运用能力。",
+      "cnStandards": [
+        "moe-2022-english:S2.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_149",
+      "name": "英语·人与社会主题(社区规则节日)",
+      "domain": "Themes: Society",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        10,
+        12
+      ],
+      "centrality": 0.033333,
+      "description": "围绕人与社会主题，用英语谈论社区生活、规则和节日，发展跨文化交际意识。",
+      "cnStandards": [
+        "moe-2022-english:S3.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_150",
+      "name": "英语·人与自然主题(动物天气环境)",
+      "domain": "Themes: Nature",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        8,
+        12
+      ],
+      "centrality": 0.033333,
+      "description": "围绕人与自然主题，用英语描述动物、天气和环境，培养关爱自然的情感。",
+      "cnStandards": [
+        "moe-2022-english:S2.THM.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_151",
+      "name": "英语·听力理解·听懂简短指令对话",
+      "domain": "Language Skills",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        8,
+        10
+      ],
+      "centrality": 0.066667,
+      "description": "听懂课堂指令和简短对话，获取关键信息，发展英语听力理解能力。",
+      "cnStandards": [
+        "moe-2022-english:S2.SK.01"
+      ],
+      "nodeKind": "skill",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_152",
+      "name": "英语·口语表达·问候与介绍",
+      "domain": "Language Skills",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        8,
+        12
+      ],
+      "centrality": 0.033333,
+      "description": "用英语进行问候、介绍和简单的日常交流，做到发音清楚、表达基本正确。",
+      "cnStandards": [
+        "moe-2022-english:S2.SK.02"
+      ],
+      "nodeKind": "skill",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_153",
+      "name": "英语·阅读·读懂配图短文",
+      "domain": "Language Skills",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        8,
+        12
+      ],
+      "centrality": 0,
+      "description": "借助图片读懂简单的英语短文，理解大意和细节，发展阅读理解能力。",
+      "cnStandards": [
+        "moe-2022-english:S2.SK.03"
+      ],
+      "nodeKind": "skill",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_154",
+      "name": "英语·语言知识·语音词汇语法初步",
+      "domain": "Language Knowledge",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        8,
+        12
+      ],
+      "centrality": 0,
+      "description": "掌握英语基本的语音规则、核心词汇和简单语法，为语言运用打基础。",
+      "cnStandards": [
+        "moe-2022-english:S2.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_155",
+      "name": "英语·学习策略",
+      "domain": "Learning Strategy & Culture",
+      "type": "META",
+      "subject": "English",
+      "ageRange": [
+        10,
+        12
+      ],
+      "centrality": 0,
+      "description": "掌握基本的英语学习策略，具有初步的跨文化意识，能主动有效地学习英语。",
+      "cnStandards": [
+        "moe-2022-english:S3.STR.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "小学",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_575",
+      "name": "英语·听力·关键信息获取",
+      "domain": "Listening",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "听懂日常话题的简短对话，能获取人物、时间、地点、数字等关键信息，达到三级听力目标。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.01"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_576",
+      "name": "英语·听力·主旨推断",
+      "domain": "Listening",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "听懂较长的对话和语篇，能概括主旨大意，推断说话者的意图、态度和情绪。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.01"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_577",
+      "name": "英语·口语·购物情境对话",
+      "domain": "Speaking",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "在购物情境中进行简单英语对话，掌握常用购物用语和应答。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.02"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_578",
+      "name": "英语·口语·简短观点表达",
+      "domain": "Speaking",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "能就日常话题用英语发表简短观点，做到语句通顺、条理基本清楚，能运用连接词使表达连贯。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.02"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_579",
+      "name": "英语·阅读·语篇大意",
+      "domain": "Reading",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        12,
+        14
+      ],
+      "centrality": 0.066667,
+      "description": "能读懂简单的英语短文和故事，理解语篇大意和具体细节，达到三级阅读目标。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.03"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_580",
+      "name": "英语·阅读·作者意图",
+      "domain": "Reading",
+      "type": "META",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0.033333,
+      "description": "能在阅读中推断作者的意图和态度，理解语篇的深层含义，做出合理的判断和推理。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_581",
+      "name": "英语·阅读·生词猜测",
+      "domain": "Reading",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "能运用上下文线索（定义/举例/对比/因果）和构词法猜测生词的含义，不依赖字典理解语篇。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.03"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_582",
+      "name": "英语·写作·书信",
+      "domain": "Writing",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        14
+      ],
+      "centrality": 0,
+      "description": "能根据提示写出简单的英语书信和邮件，做到格式正确、要点齐全、语言基本正确。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.04"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_583",
+      "name": "英语·写作·简单记叙语篇",
+      "domain": "Writing",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "能根据提示写出简单的英语记叙文和说明文，做到结构完整、时态正确、能使用基本连接词。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.04"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_584",
+      "name": "英语·语法·一般现在时",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0.1,
+      "description": "掌握一般现在时的构成（主语+动词原形/三单）和用法（习惯、事实）。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_585",
+      "name": "英语·语法·现在完成时",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "掌握现在完成时（have/has+过去分词）的构成和用法，能区分现在完成时与一般过去时的不同。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_586",
+      "name": "英语·语法·一般现在时的被动语态",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "掌握一般现在时被动语态的构成（am/is/are+过去分词）和用法。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_587",
+      "name": "英语·语法·基本句型",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        14
+      ],
+      "centrality": 0.133333,
+      "description": "掌握英语五种基本句型（S+V/S+V+O/S+V+P/S+V+IO+DO/S+V+O+C），能正确造句和分析句子结构。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_588",
+      "name": "英语·词汇·课标核心词汇掌握",
+      "domain": "Vocabulary",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        14
+      ],
+      "centrality": 0.033333,
+      "description": "掌握课标要求的初中阶段核心词汇（约1500-1600词），能在听、说、读、写中正确运用。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_589",
+      "name": "英语·词汇·构词法·派生",
+      "domain": "Vocabulary",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "了解常见的构词法（派生法的前缀后缀、合成法、转化法），能运用构词法扩大词汇量、猜测词义。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_590",
+      "name": "英语·语音·拼读规则",
+      "domain": "Phonetics",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "掌握基本的拼读规则（元音字母和字母组合的发音）和升降调规律，能正确朗读单词和句子。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.04"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_591",
+      "name": "英语·人与自我·学校生活",
+      "domain": "Themes: Self",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕学校生活话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_592",
+      "name": "英语·人与社会·社会规则",
+      "domain": "Themes: Society",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕社会规则话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_593",
+      "name": "英语·人与自然·环境保护",
+      "domain": "Themes: Nature",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕环境保护话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_838",
+      "name": "阅读·长难语篇的理解",
+      "domain": "Integrated Language Use",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        15,
+        16
+      ],
+      "centrality": 0.066667,
+      "description": "能读懂篇幅较长、语言较难的英语语篇（说明文、议论文、科普文章等），能理解文章的主旨大意和深层含义，能根据上下文推断生词含义，能推断作者的态度和意图。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.01"
+      ],
+      "nodeKind": "skill",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_839",
+      "name": "区分事实与观点",
+      "domain": "Integrated Language Use",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "ageRange": [
+        16,
+        17
+      ],
+      "centrality": 0.033333,
+      "description": "学习识别文本中事实陈述与观点表述，区分客观信息和主观判断。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_840",
+      "name": "写作·复杂语篇的谋篇",
+      "domain": "Integrated Language Use",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        16,
+        17
+      ],
+      "centrality": 0.033333,
+      "description": "能根据提示写出结构完整、内容丰富的英语语篇（记叙/说明/议论），做到谋篇布局合理、内容充实、逻辑清晰，能正确运用多样的句型结构和高级词汇。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.03"
+      ],
+      "nodeKind": "skill",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_841",
+      "name": "提出有深度的观点并论证",
+      "domain": "Integrated Language Use",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        16,
+        17
+      ],
+      "centrality": 0,
+      "description": "学习在写作中提出有深度的观点，并用充分理由和例证进行论证。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.04"
+      ],
+      "nodeKind": "skill",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2260",
+      "name": "英语·口语·问路情境对话",
+      "domain": "Speaking",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "在问路情境中进行简单英语对话，掌握方向、地点表达和礼貌应答。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.02"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2261",
+      "name": "英语·口语·就餐情境对话",
+      "domain": "Speaking",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "在就餐情境中进行简单英语对话，掌握点餐、询问菜品、结账等用语。",
+      "cnStandards": [
+        "moe-2022-english:S4.SK.02"
+      ],
+      "nodeKind": "skill",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2262",
+      "name": "英语·语法·一般过去时",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "掌握一般过去时的构成（主语+动词过去式）和用法（过去动作/状态）。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2263",
+      "name": "英语·语法·一般将来时",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "掌握一般将来时的构成（will+动词原形/be going to+动词原形）和用法（预测/计划）。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2264",
+      "name": "英语·语法·现在进行时",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        12,
+        13
+      ],
+      "centrality": 0,
+      "description": "掌握现在进行时的构成（am/is/are+动词ing）和用法（正在进行的动作）。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2265",
+      "name": "英语·语法·一般过去时的被动语态",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "掌握一般过去时被动语态的构成（was/were+过去分词）和用法。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2266",
+      "name": "英语·语法·一般将来时的被动语态",
+      "domain": "Grammar",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "掌握一般将来时被动语态的构成（will be+过去分词）和用法。",
+      "cnStandards": [
+        "moe-2022-english:S4.KN.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2267",
+      "name": "英语·人与自我·学习习惯",
+      "domain": "Themes: Self",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕学习习惯话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2268",
+      "name": "英语·人与自我·个人兴趣",
+      "domain": "Themes: Self",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕个人兴趣话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2269",
+      "name": "英语·人与自我·梦想与未来",
+      "domain": "Themes: Self",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕梦想与未来话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.01"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2270",
+      "name": "英语·人与社会·公益志愿",
+      "domain": "Themes: Society",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕公益志愿话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2271",
+      "name": "英语·人与社会·文化差异",
+      "domain": "Themes: Society",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕文化差异话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2272",
+      "name": "英语·人与社会·中外节日",
+      "domain": "Themes: Society",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕中外节日话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2273",
+      "name": "英语·人与自然·自然灾害",
+      "domain": "Themes: Nature",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕自然灾害话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2274",
+      "name": "英语·人与自然·科技发展",
+      "domain": "Themes: Nature",
+      "type": "LANGUAGE",
+      "subject": "English",
+      "ageRange": [
+        13,
+        15
+      ],
+      "centrality": 0,
+      "description": "围绕科技发展话题，综合运用英语进行听说读写。",
+      "cnStandards": [
+        "moe-2022-english:S4.THM.03"
+      ],
+      "nodeKind": "concept",
+      "stage": "初中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2275",
+      "name": "分析论证逻辑与批判性评价",
+      "domain": "Integrated Language Use",
+      "type": "CONCEPTUAL",
+      "subject": "English",
+      "ageRange": [
+        16,
+        17
+      ],
+      "centrality": 0,
+      "description": "分析论证的逻辑链条、证据可靠性，并对文本观点和写作手法进行评价。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.02"
+      ],
+      "nodeKind": "concept",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mtc_2276",
+      "name": "综合运用复杂句型与非谓语动词",
+      "domain": "Integrated Language Use",
+      "type": "PROCEDURAL",
+      "subject": "English",
+      "ageRange": [
+        16,
+        17
+      ],
+      "centrality": 0,
+      "description": "学习在写作中正确运用名词性从句、定语从句、状语从句和非谓语动词，提升语言表达力。",
+      "cnStandards": [
+        "moe-2022-english:SH.IU.04"
+      ],
+      "nodeKind": "skill",
+      "stage": "高中",
+      "source": "cn"
+    },
+    {
+      "id": "mt_ay0qkGj0jg",
+      "name": "标准英语动词",
+      "subject": "English",
+      "description": "使用标准英语动词变形代替非标准当地形式",
+      "translationStatus": "machine",
+      "source": "upstream"
+    },
+    {
+      "id": "mt_S2fP8rUwrl",
+      "name": "标准英语",
+      "subject": "English",
+      "description": "了解并理解口语和书面语言之间的差异（包括形式、语域、语法和词汇方面的差异）以及标准英语和其他英语变体之间的差异，在写作和演讲中自信地使用标准英语",
+      "translationStatus": "machine",
+      "source": "upstream"
+    },
+    {
+      "id": "mt_86DyHo9zO3",
+      "name": "正式和非正式英语",
+      "subject": "English",
+      "description": "识别并比较英语的正式和非正式用法，了解语言选择根据受众、目的和背景而变化",
+      "translationStatus": "machine",
+      "source": "upstream"
+    }
+  ]
+}
